@@ -1,0 +1,74 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url(../images/01XK7F4x.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+@media (max-width:768px) {
+    body {
+        background: url(https://images.alarab.com/data/news/2019/05/17/901267/20190517816002019-05-15T212503Z_944187546_RC19D1245920_RTRMADP_3_FRANCE-EIFFEL-ANNIVERSARY.JPG?width=519&auto_optimize=high) no-repeat;
+        background-size: cover;
+    }
+}
+
+.login-box {
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: white;
+}
+.login-box h1 {
+    float: left;
+    font-size: 40px;
+    margin-bottom: 50px;
+    border-bottom: 6px solid #ff9700;
+    padding: 13px 0;
+}
+.text-box {
+    width: 100%;
+    overflow: hidden;
+    padding: 8px 0;
+    margin: 8px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #ff9700;
+}
+.text-box i {
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.text-box input {
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    margin: 0 10px;
+    caret-color: #ff9700;
+}
+::-webkit-input-placeholder {
+    color: white;
+    transition:opacity 0.53s ease-in-out;
+}
+:focus::-webkit-input-placeholder {
+    opacity: 0.5;
+}
+.btn {
+    width: 100%;
+    background: none;
+    border: 2px solid #ff9700;
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.btn:hover {
+    border-color: #4caf50;
+}
